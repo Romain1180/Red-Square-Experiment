@@ -32,3 +32,8 @@
   background: red;
   color: #fff;
 }
+
+.listControl{
+  display: none;
+  text-transform: none;
+}

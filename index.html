@@ -23,7 +23,7 @@
       class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-between"
     >
       <div class="container">
-        <span class="navbar-brand mb-0 h1">La Manu - RSE</span>
+        <span class="navbar-brand mb-0 h1">ROMAIN WYBO</span>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,7 +40,7 @@
     <main class="container mt-5">
       <article class="row">
         <div class="col">
-          <h1 class="text-capitalize mb-3">#1 - Red Square experiment</h1>
+          <h1 class="text-capitalize mb-3">Red Square experiment</h1>
           <div class="form-check form-switch mb-2">
             <input
               class="form-check-input"
@@ -50,9 +50,14 @@
             />
             <label
               class="form-check-label text-capitalize"
-              for="toggleRedSquare"
-            >
+              for="toggleRedSquare"> 
               Activer red Square Experiment
+              <ul class="listControl">
+                <li>Z : aller en haut</li>
+                <li>Q : aller à gauche</li>
+                <li>S : aller en bas</li>
+                <li>D : aller à droite</li>
+              </ul>
             </label>
           </div>
           <div class="redsquare-app" data-active="false">
@@ -61,9 +66,7 @@
             </div>
           </div>
           <p class="form-text text-muted">
-            Utilisez les touches de votre clavier
-            <i class="fa fa-arrows" aria-hidden="true"></i> pour déplacer le
-            carré et les boutons pour le transformer
+            Utilisez les touches de votre clavier pour déplacer le carré et les boutons pour le transformer
           </p>
           <div class="redsquare-controls btn-group btn-group-lg d-flex mt-2">
             <button type="button" id="scaleUp" class="btn btn-light" disabled>

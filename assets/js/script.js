@@ -9,6 +9,9 @@ function clickButton() {
     let scaleDown = document.getElementById('scaleDown').disabled = false;
     let shapeCircle = document.getElementById('shapeCircle').disabled = false;
     let shapeSquare = document.getElementById('shapeSquare').disabled = false;
+    let listControl = document.querySelector('.listControl');
+
+    listControl.style.display = ('block')
 
     buttonScaleUp = document.querySelector('#scaleUp')
     buttonScaleUp.classList.remove('btn-light');
@@ -25,7 +28,6 @@ function clickButton() {
     shapeSquare = document.querySelector('#shapeSquare')
     shapeSquare.classList.remove('btn-light');
     shapeSquare.classList.toggle('btn-primary');
-    // redsquareControls.removeAttribute('disabled')
 }
 
 // up
@@ -61,7 +63,6 @@ function clickScaleDown() {
         square.style.width = ('50px')
         square.style.height = ('50px')  // taille min
     }
-
 }
 
 // circle
@@ -123,6 +124,5 @@ let Input = document.addEventListener('keydown', (event) => {
         default :
             return;
     }
-
   }, false);
   
